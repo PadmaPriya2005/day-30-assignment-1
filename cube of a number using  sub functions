@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+
+void cube();
+void cube()
+{
+	int n,c;
+	printf(" Enter a number");
+	scanf("%d",&n);
+	c=n*n*n;
+	printf(" \n cube of number =%d \n",c);
+}
+ int main()
+ {
+ 	cube();
+ }
+ 
